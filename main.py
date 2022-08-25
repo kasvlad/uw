@@ -44,6 +44,7 @@ def main():
                 print(f'JSON Valid::   Keyword:"{s_json.q}",   Page:"{s_json.page}",   Relatice Skills:"{s_json.upwork_relative_skill_names}",   Date:{s_json.date},   Time:{s_json.time}')
                 print('----------------------------------------------------------------------------------------------------------------------------------------------')
                 create_database_if_not_exist(SERP_dtb)
+
                 sql = f"""
                     ################################## SERP
                     CREATE TABLE IF NOT EXISTS {SERP_table} (
