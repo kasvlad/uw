@@ -18,7 +18,7 @@ class SerpJSON:
     #         return func()
     #     except expected_exc:
     #         return default
-
+# onunnuiuni
 class Profile:
     """ Single profile from SerpJSON """
     def __init__(self, pjson, keyword, page, timestamp):
